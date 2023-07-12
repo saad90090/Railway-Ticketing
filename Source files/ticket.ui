@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Ticket</class>
+ <widget class="QDialog" name="Ticket">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1920</width>
+    <height>1080</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QPushButton{
+border-style: outset;
+border-width: 2px;
+border-radius: 10px;
+border-color: rgb(0, 0, 0);
+background-color: rgb(255, 255, 255);
+color:black;
+}
+#frame{
+border-style: outset;
+border-width: 2px;
+border-radius: 10px;
+border-color: rgb(0, 0, 0);
+background-color: rgba(255, 255, 255,0.8);
+}
+*{
+font: 700 14pt &quot;Nexa Bold&quot;;
+}
+#Ticket{
+border-image: url(:/images/ticket.jpg);
+}
+QPushButton:hover{
+border-style: outset;
+border-width: 2px;
+border-radius: 10px;
+border-color: rgb(0, 0, 0);
+background-color: rgb(0,0,0);
+color:white;
+}</string>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>500</x>
+     <y>120</y>
+     <width>541</width>
+     <height>390</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>120</y>
+      <width>400</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Book E-Ticket</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>70</x>
+      <y>220</y>
+      <width>400</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show Bookings</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

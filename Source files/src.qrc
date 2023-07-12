@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>2.jpg</file>
+        <file>login.jpg</file>
+        <file>icon.png</file>
+        <file>mainpage.jpeg</file>
+        <file>sign.jpeg</file>
+        <file>seat.jpeg</file>
+        <file>trains.jpeg</file>
+        <file>seatsss.jpg</file>
+        <file>payment.jpg</file>
+        <file>mastercard.png</file>
+        <file>visa.png</file>
+        <file>easypaisa.jpg</file>
+        <file>jazzcasha.png</file>
+        <file>ticket bill.jpg</file>
+        <file>ticket.jpg</file>
+    </qresource>
+</RCC>
